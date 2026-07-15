@@ -411,8 +411,9 @@ a {
 
 .form-embed {
   width: 100%;
-  max-width: 330px;
-  margin: 22px auto 42px;
+  max-width: 374px;
+  margin: 24px auto 42px;
+  padding: 8px;
   overflow: hidden;
   border-radius: 18px;
   background: #fff;
@@ -420,10 +421,10 @@ a {
 
 .form-embed iframe {
   display: block;
-  width: 122%;
-  min-height: 980px;
+  width: 100%;
+  min-height: 720px;
   border: 0;
-  zoom: .82;
+  border-radius: 12px;
 }
 
 .location-timing-card {

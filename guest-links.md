@@ -3,21 +3,21 @@
 Базовая универсальная версия:
 
 ```text
-https://letterwedding.github.io/wedding_alia_rishat/
+https://kvguliaeva.github.io/wedding_roman_gulnara/
 ```
 
 Точный заголовок приглашения через `to`:
 
 ```text
-https://letterwedding.github.io/wedding_alia_rishat/?to=Дорогая%20Анна!
-https://letterwedding.github.io/wedding_alia_rishat/?to=Дорогие%20Иван%20и%20Мария!
+https://kvguliaeva.github.io/wedding_roman_gulnara/?to=Дорогая%20Анна!
+https://kvguliaeva.github.io/wedding_roman_gulnara/?to=Дорогие%20Иван%20и%20Мария!
 ```
 
 Сборка из обращения и имени:
 
 ```text
-https://letterwedding.github.io/wedding_alia_rishat/?appeal=Дорогая&guest=Анна
-https://letterwedding.github.io/wedding_alia_rishat/?appeal=Дорогие&guest=Иван%20и%20Мария
+https://kvguliaeva.github.io/wedding_roman_gulnara/?appeal=Дорогая&guest=Анна
+https://kvguliaeva.github.io/wedding_roman_gulnara/?appeal=Дорогие&guest=Иван%20и%20Мария
 ```
 
 Если параметры не указаны, на сайте остается универсальное обращение:
