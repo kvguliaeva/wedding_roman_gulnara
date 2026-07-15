@@ -33,7 +33,8 @@ if (guestTitle) {
   const appeal = cleanParam(params.get("appeal")) || "Дорогие";
 
   if (exactTitle) {
-    guestTitle.textContent = exactTitle;
+    const punctuation = /[.!?]$/.test(exactTitle) ? "" : "!";
+    guestTitle.textContent = `${exactTitle}${punctuation}`;
   } else if (guestName) {
     const punctuation = /[.!?]$/.test(guestName) ? "" : "!";
     guestTitle.textContent = `${appeal} ${guestName}${punctuation}`;
