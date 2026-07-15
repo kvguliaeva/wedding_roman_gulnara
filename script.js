@@ -11,7 +11,20 @@ const params = new URLSearchParams(window.location.search);
 const guestTitle = document.querySelector("[data-guest-title]");
 
 function cleanParam(value) {
-  return value ? value.trim().replace(/\s+/g, " ") : "";
+  if (!value) {
+    return "";
+  }
+
+  let decoded = value;
+  for (let i = 0; i < 2 && /%[0-9A-Fa-f]{2}/.test(decoded); i += 1) {
+    try {
+      decoded = decodeURIComponent(decoded);
+    } catch {
+      break;
+    }
+  }
+
+  return decoded.trim().replace(/\s+/g, " ");
 }
 
 if (guestTitle) {

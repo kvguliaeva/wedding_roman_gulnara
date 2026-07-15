@@ -13,6 +13,14 @@ https://kvguliaeva.github.io/wedding_roman_gulnara/?to=Дорогая%20Анна
 https://kvguliaeva.github.io/wedding_roman_gulnara/?to=Дорогие%20Иван%20и%20Мария!
 ```
 
+Можно вставлять и обычный русский текст с пробелами прямо в адресную строку:
+
+```text
+https://kvguliaeva.github.io/wedding_roman_gulnara/?to=Дорогая Анна!
+```
+
+Браузер может сам превратить пробелы в `%20`, но на сайте они отобразятся обычными пробелами.
+
 Сборка из обращения и имени:
 
 ```text
